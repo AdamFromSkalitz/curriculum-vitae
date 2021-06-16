@@ -66,7 +66,7 @@
 %\color[HTML]{303030} % Default foreground color
 \definecolor{link}{HTML}{506060} % Hyperlinks
 \hypersetup{colorlinks,breaklinks,urlcolor=link,linkcolor=link}
-\setkomafont{disposition}{\color[HTML]{010199}}   
+\setkomafont{disposition}{\color[HTML]{f55c00}}   
 %\setkomafont{disposition}{ \color{RoyalBlue}} 
 
 \setkomafont{section}{\scshape\Large\mdseries}
