@@ -83,8 +83,8 @@
 	%{\fontfamily{pzc}\selectfont\large 
 	{
 	\large
-	8/2 100 Holm Street \\
-	G2 6SY\\
+	1/1 23 Turnbull Street \\
+	G1 5PR\\
 	Glasgow\\
 	07887383323\\
 	adam\_kidd@hotmail.co.uk
@@ -211,6 +211,18 @@
     \tabularx{\linewidth}{rX}}
     {\endtabularx}
 
+
+%NUNI
+\newenvironment{nuni}{%
+    \renewcommand\item[4][]{%
+	{\sc ##2} & {\bfseries ##3} \\
+	
+	\ifstrempty{##1}{}{& {\sc ##1} \\}
+	
+	& {##4}\medskip\\
+	}
+    \tabularx{\linewidth}{rX}}
+    {\endtabularx}
 
 %UNI 
 \newenvironment{uni}{%
