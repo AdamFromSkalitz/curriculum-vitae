@@ -58,6 +58,9 @@
 	end
 	tex.print(dst)}}
 
+\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+
 \pagestyle{empty}
 \setlength\parindent{0pt}
 %\color[HTML]{303030} % Default foreground color
@@ -65,6 +68,7 @@
 \hypersetup{colorlinks,breaklinks,urlcolor=link,linkcolor=link}
 \setkomafont{disposition}{\color[HTML]{010199}}   
 %\setkomafont{disposition}{ \color{RoyalBlue}} 
+
 \setkomafont{section}{\scshape\Large\mdseries}
 
 % In tccv \part must contain the subject of the curriculum vitae.
